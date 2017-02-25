@@ -24,10 +24,10 @@
   <R R5 5 250 360 -26 -29 0 2 "R0" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <OpAmp OP1 5 350 240 -26 42 0 0 "1e6" 0 "15 V" 0>
   <GND * 1 180 440 0 0 0 0>
-  <.DC DC1 5 500 180 0 38 0 0 "26.85" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "no" 0 "150" 0 "no" 0 "none" 0 "CroutLU" 0>
+  <.DC DC1 5 500 180 0 40 0 0 "26.85" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "no" 0 "150" 0 "no" 0 "none" 0 "CroutLU" 0>
   <VProbe Pr1 5 270 300 -28 -31 1 2>
-  <.SW SW2 5 660 230 0 62 0 0 "SW1" 0 "const" 0 "Uin" 1 "-1" 0 "1" 0 "[1]" 1>
-  <.SW SW1 5 500 230 0 62 0 0 "DC1" 0 "log" 0 "R0" 1 "0.1" 1 "100" 1 "20" 1>
+  <.SW SW2 5 660 230 0 65 0 0 "SW1" 0 "const" 0 "Uin" 1 "-1" 0 "1" 0 "[1]" 1>
+  <.SW SW1 5 500 230 0 65 0 0 "DC1" 0 "log" 0 "R0" 1 "0.1" 1 "100" 1 "20" 1>
 </Components>
 <Wires>
   <180 340 180 360 "" 0 0 0 "">
@@ -51,4 +51,5 @@
   </Rect>
 </Diagrams>
 <Paintings>
+  <Text 100 530 12 #000000 0 "How to keep constant voltage across a sample\n with resistive leads when its resistance is changing">
 </Paintings>
